@@ -29,7 +29,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           RUN_ONCE: True
         run: |-
-          python3 ./main.py
+          python3 ./hoyolab.py
 
       - name: Commit and push if changed
         run: |-
