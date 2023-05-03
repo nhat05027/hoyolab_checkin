@@ -22,7 +22,7 @@ jobs:
         run: |-
           pip install -r requirements.txt
 
-      - name: Run main.py
+      - name: Run hoyolab.py
         env:
           COOKIE: ${{ secrets.COOKIE }}
           USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
